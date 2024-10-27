@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+    background-image: url("https://www.shutterstock.com/image-photo/lake-between-forests-mountains-600nw-2478018063.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    padding: 0 100px;
+    width: 88%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar .logo {
+    float: left;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+.header-text {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.text-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.text-content p {
+    width: 75%;
+    margin: auto;
+}
+
+.text-content a {
+    background: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #202020;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.text-content a:hover {
+    background: transparent;
+    border: 5px solid #fff;
+    color: #fff;
+    cursor: progress;
+}
